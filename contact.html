@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarPrint</title>
+    <link rel="icon" href="imgs/icone.ico">
+    <!-- met tous les elements en style par defaut -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- style principale -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- icons  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- <link rel="stylesheet" href="css/output.css" /> -->
+    <!-- pour appler les icons de webfonts  -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    <div class="header" id="header">
+        <div class="container">
+            <a href="index.html" class="logo">StarPrint</a>
+            <ul class="main-nav">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#footer">A propos</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- contact -->
+
+
+    <div class="contact" id="contact">
+        <div class="container">
+
+            <div class="text">
+                <h2 class="h2 section-title">Contact Us</h2>
+
+                <p class="section-text">
+                    Et harum quidem rerum facilis est et expedita distinctio nam libero tempore cum soluta nobis
+                    eligendi
+                    cumque.
+                </p>
+            </div>
+
+            <div class="contact-inputs">
+
+                <form onsubmit="sendEmail();reset(); return false;">
+                    <div class="name-lastname">
+                        <div class="name">
+                            <label id="labelname" for="name">Name*</label>
+
+                            <input type="text" name="name" id="name" required placeholder="Enter Your Name"
+                                class="input-field">
+                        </div>
+
+                        <div class="lastname">
+                            <label for="name">Last Name*</label>
+
+                            <input type="text" name="lastname" id="lastname" required
+                                placeholder="Enter Your last name Name" class="input-field">
+
+                        </div>
+                    </div>
+                    <label for="Email">Email*</label>
+                    <input type="email" name="email" id="email" required placeholder="Enter Your Email"
+                        class="input-field">
+                    <label for="name">subject*</label>
+                    <input type="text" name="subject" id="subject" required placeholder="Enter Your Name"
+                        class="input-field">
+                    <label for="message">Message*</label>
+                    <textarea name="message" id="message" required placeholder="Type Your Message"
+                        class="input-field"></textarea>
+
+                    <div class="button">
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+
+                        </button>
+                    </div>
+
+
+
+                </form>
+
+
+
+            </div>
+
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="container">
+
+            <div class="box1">
+                <h2><a href="index.html" class="logo">StarPrint</a></h2>
+                <p class="text-footer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates delectus
+                    dolore molestiae
+                    voluptatem.</p>
+                <ul class="icons">
+
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/amine.mohamed.1042" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/mohamed-amine-b41221230/" class="linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/mohamed_amine207/" class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+
+            <div class="box2">
+                <h2>Services</h2>
+                <ul>
+                    <li><a class="text-footer" href="#broderie">broderie</a></li>
+                    <li><a class="text-footer" href="#seregraphie">seregraphie</a></li>
+                    <li><a class="text-footer" href="#machines">machines</a></li>
+                </ul>
+            </div>
+
+            <div class="box3">
+                <h2>photos</h2>
+                <div class="img-ligne1">
+                    <div class="image"><img src="images/borderie.jpg" alt=""></div>
+                    <div class="image"> <img src="images/seregraphie.jpg" alt=""></div>
+
+                </div>
+                <div class="img-ligne2">
+                    <div class="image"><img src="images/machine.jpg" alt=""></div>
+                    <div class="image"><img src="images/img1.jpeg" alt=""></div>
+
+                </div>
+            </div>
+
+            <div class="box4">
+                <h2>contact info</h2>
+                <div class="line">
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/Run-IT/@36.8346347,10.1755359,17z/data=!4m15!1m8!3m7!1s0x12fd35c5d8bd9bc1:0xd73f9e9f5f6d0a24!2sRun-IT!8m2!3d36.8346304!4d10.1781108!10e1!16s%2Fg%2F11qqq_k56v!3m5!1s0x12fd35c5d8bd9bc1:0xd73f9e9f5f6d0a24!8m2!3d36.8346304!4d10.1781108!16s%2Fg%2F11qqq_k56v?authuser=0&entry=ttu">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="text-footer">adresse</div>
+                    </a>
+                </div>
+                <div class="line">
+                    <a target="_blank" href="tel:+21652103008">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="text-footer"> phone</div>
+                    </a>
+                </div>
+
+                <div class="line">
+                    <a target="_blank" href="mailto:test@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="text-footer">mail</div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/sendEmail.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+</body>
+
+
+</html>
